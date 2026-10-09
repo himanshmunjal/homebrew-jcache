@@ -3,15 +3,15 @@
 class Jcache < Formula
   desc "In-memory cache server with LRU, LFU and ARC eviction"
   homepage "https://github.com/himanshmunjal/JCache"
-  url "https://github.com/himanshmunjal/JCache/releases/download/v1.0.3/jcache-server-1.0.3.jar"
-  sha256 "bd802bbe85cfb7dc6b296aa5df159f5bc9a4f728efed7238152bdd50d1b14d21"
+  url "https://github.com/himanshmunjal/JCache/releases/download/v1.0.4/jcache-server-1.0.4.jar"
+  sha256 "708623ad8101dfe8752bbd8482e22f77b185180c23aabea1edd1198e870a495c"
   license "MIT"
 
   depends_on "openjdk@21"
 
   resource "client" do
-    url "https://github.com/himanshmunjal/JCache/releases/download/v1.0.3/jcache-client-1.0.3.jar"
-    sha256 "863bf183fdc9c691fbc38213dc965715ab1a1b3fa112116d7afcb6fc17270fa6"
+    url "https://github.com/himanshmunjal/JCache/releases/download/v1.0.4/jcache-client-1.0.4.jar"
+    sha256 "aa496adbc166e110c93956142a73bd6d0ee155b881aaebb2ef9b8d8f5c401280"
   end
 
   def install
